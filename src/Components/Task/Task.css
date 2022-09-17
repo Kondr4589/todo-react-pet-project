@@ -1,0 +1,48 @@
+.task{
+
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    max-width: 100%;
+    padding: 5px 0;
+    margin: 10px;
+    font-size: 24px;
+    border-bottom: 4px solid rgba(72, 64, 64, 0.37);;
+
+}
+
+.check__img{
+    width: 15px;
+    height: 15px;
+}
+.active{
+    text-decoration:line-through;
+    color: rgba(15, 144, 162, 0.57);
+}
+.check{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid #FFFFff;
+}
+.task__content{
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.task__btn{
+    cursor: pointer;
+    border: 0;
+    color: rgba(255, 255, 255, 0.7);
+    background-color: #25273C;
+    font-size: 16px;
+    padding: 5px;
+}

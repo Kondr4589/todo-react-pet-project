@@ -1,0 +1,8 @@
+.counter{
+    border: 2px solid #AD02FE;
+    padding: 10px;
+    color: #FFF;
+}
+.counter__item{
+    margin-left: 10px;
+}
